@@ -1,0 +1,23 @@
+{
+  "name": "ebanolife",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Peer Rails <prails@cock.li",
+  "license": "ISC",
+  "devDependencies": {
+    "pug": "^2.0.0-rc.2",
+    "pug-loader": "^2.3.0",
+    "webpack": "^3.0.0"
+  },
+  "dependencies": {
+    "fullpage.js": "^2.9.4"
+  },
+  "scripts": {
+          "build": "./node_modules/.bin/webpack --config webpack.config.js"
+  }
+}
